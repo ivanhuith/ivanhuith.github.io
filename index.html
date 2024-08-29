@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tsung Ho, Hui</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="w3-light-grey">
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <div class="w3-row-padding">
+      <div class="w3-container">
+        <h1 class="w3-text-teal"><i class="fa fa-user"> Tsung Ho, Hui</i></h1>
+      </div>
+      <div class="w3-container w3-margin-bottom">
+        <button onclick="document.getElementById('Setting').style.display='block'" class="w3-button w3-teal">Setting <i
+            class="fa fa-cog"></i></button>
+        <div id="Setting" class="w3-modal">
+          <div class="w3-modal-content w3-card-4">
+            <header class="w3-container w3-teal" id="ModalHeader">
+              <span onclick="document.getElementById('Setting').style.display='none'"
+                class="w3-button w3-display-topright">&times;</span>
+              <h2>Setting</h2>
+            </header>
+            <div class="w3-container" id="ToggleContainer">
+              <span>Day</span>
+              <label class="switch">
+                <input type="checkbox" id="DarkMode" onclick="ToDarkMode()">
+                <span class="slider"></span>
+              </label>
+              <span>Night</span>
+            </div>
+            <footer class="w3-container w3-teal" id="ModalFooter">
+              <p>Switch to day mode or night mode.</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container"></div>
+          <div class="w3-container" id="FirstSection">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Junior Business Analyst</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Kowloon, Hong Kong</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>tsunghohui@gmail.com</p>
+            <hr>
+            <h2 class="w3-text-grey w3-margin-bottom"><i
+                class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</h2>
+            <h3 class="w3-text-grey w3-center w3-margin-bottom"><i class="fa fa-database"> Database</i></h3>
+            <ul class="w3-margin-top w3-margin-bottom w3-padding-16">
+              <li>SQL, Transact-SQL(T-SQL)</li>
+              <li>SSMS</li>
+            </ul>
+            <h3 class="w3-text-grey w3-center w3-margin-top w3-margin-bottom"><i class="fa fa-internet-explorer"> Web
+                Development</i></h3>
+            <ul class="w3-margin-top w3-margin-bottom w3-padding-16">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+            <h3 class="w3-text-grey w3-center w3-margin-top w3-margin-bottom"><i class="fa fa-university"> Research</i>
+            </h3>
+            <ul class="w3-margin-top w3-margin-bottom w3-padding-16">
+              <li>G*Power</li>
+              <li>SPSS</li>
+            </ul>
+            <h2 class="w3-text-grey w3-margin-bottom"><i
+                class="fa fa-language fa-fw w3-margin-right w3-text-teal"></i>Language</h2>
+            <ul class="w3-margin-top w3-margin-bottom w3-padding-16">
+              <li>Catonese</li>
+              <li>English</li>
+              <Li>Japanese (Beginner Level)</Li>
+              <li>Mandarin</li>
+            </ul>
+            <br>
+          </div>
+        </div><br>
+      </div>
+
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom" id="SecondSection">
+          <h2 class="w3-text-grey w3-margin-top"><i
+              class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h3 class="w3-text-teal w3-margin-top w3-margin-bottom"><i class="fa fa-calendar fa-fw"></i> 10 July 23 -
+              <span class="w3-tag w3-teal w3-round" id="Tag">Current</span>
+            </h3>
+            <h4 class="w3-opacity w3-margin-top w3-margin-bottom"><b>Junior Business Analyst</b></h4>
+            <h5 class="Company w3-margin-top w3-margin-bottom w3-text-grey"><b>FlexSystem Limited</b></h5>
+            <ul class="w3-text-grey">
+              <li class="w3-margin-bottom">Conducting UAT (User Acceptance Testing)</li>
+              <li class="w3-margin-bottom">Writing SQL quries, stored procedure</li>
+              <li class="w3-margin-bottom">Implementing JavaScript Form Validation</li>
+            </ul>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h3 class="w3-text-teal w3-margin-top w3-margin-bottom"><i class="fa fa-calendar fa-fw"></i> 29 Aug 22 - <i
+                class="fa fa-calendar fa-fw"></i> 28 Feb 23</h3>
+            <h4 class="w3-opacity w3-margin-top w3-margin-bottom"><b>Research Assistant</b></h4>
+            <h5 class="Company w3-margin-top w3-margin-bottom w3-text-grey"><b>The Hong Kong Polytechnic University</b>
+            </h5>
+            <ul class="w3-text-grey">
+              <li class="w3-margin-bottom">Conducting data collection including Stroop test implementation</li>
+              <li class="w3-margin-bottom">Conducting data extraction for scoping review</li>
+              <li class="w3-margin-bottom">Conducting literature review</li>
+            </ul>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h3 class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> 1 Jun 21 - <i
+                class="fa fa-calendar fa-fw"></i> 9 July 21</h3>
+            <h4 class="w3-opacity w3-margin-top w3-margin-bottom"><b>Psychology Intern</b></h4>
+            <h5 class="Company w3-margin-top w3-margin-bottom w3-text-grey"><b>Tsz Shan Monastery Buddhist Spiritual
+                Counselling Centre</b></h5>
+            <ul class="w3-text-grey w3-margin-top w3-margin-bottom w3-padding-16">
+              <li class="w3-margin-bottom">Conducting statistical analyses using SPSS</li>
+              <li class="w3-margin-bottom">Assisted in documents preparation<br>(Statistical reports with data
+                visualization, clients’ feedbacks, workshop presentations)</li>
+            </ul>
+            <br>
+          </div>
+        </div>
+
+        <div class="w3-container w3-card w3-white" id="ThirdSection">
+          <h2 class="w3-text-grey w3-margin-top"><i
+              class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Education</h2>
+          <div class="w3-container">
+            <h3 class="w3-text-teal"><i class="fa fa-calendar fa-fw"></i> Sept 20 - <i
+                class="fa fa-calendar fa-fw"></i>Sept 22</h3>
+            <h4 class="w3-opacity w3-margin-top w3-margin-bottom" id="Degree"><b>BSocSc Psychology</b></h4>
+            <h5 class="University w3-margin-top w3-margin-bottom w3-text-grey"><b>City University of Hong Kong</b></h5>
+            <ul class="w3-text-grey">
+              <li class="w3-margin-bottom">Upper Second Class Honours</li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on github or linkedin.</p>
+    <a href="https://github.com/ivanhuith">
+      <i class="fa fa-github w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/966166258/">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+</body>
+
+</html>
